@@ -35,3 +35,11 @@ span.caixa-alta {
     color:darkred;
     font-weight: bold;
 }
+
+a {
+    font-style: italic;
+    color:darkblue;
+    text-decoration: dotted;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
