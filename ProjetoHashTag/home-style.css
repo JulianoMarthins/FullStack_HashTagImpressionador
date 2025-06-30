@@ -1,0 +1,36 @@
+@font-face {
+    font-family: MontSerrat;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
+body {
+    font-family: 'MontSerrat', sans-serif; /* Altera a fonte */
+}
+
+/* Cabeçalho */
+.item-lista-cabecalho a {
+    color: #112e61; /* Alteura a cor da fonte */
+    font-size: 14px; /* Altera o tamanho da fonte */
+    font-weight:600; /* Altera a fonte para semi-bold */
+    text-decoration: none; /* Retirando o sublinhado de baixo da palavra */
+    text-transform: uppercase; /* Altera todas as petras pra maiusculas */
+}
+
+/* Sessão Hero */
+h1 {
+    color: #404040;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.hero-paragrafo {
+    font-size: 19px;
+}
+
+.hero-botao {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+

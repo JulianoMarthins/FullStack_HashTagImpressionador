@@ -1,0 +1,28 @@
+/* 
+    Font-face serve para importar a fonte que desejamos usar no site, font-family é o nome
+    que damos a esta fonte e o src: url é o caminho na qual a fonte será baixada.
+*/
+@font-face {
+    font-family: MontSerrat;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
+/*
+    A fonte foi configurada para todos os elementos contidos em body da página HTML
+ */
+body {
+    font-family: 'MontSerrat', sans-serif; /* Altera a fonte */
+}
+
+
+/* 
+    Apenas um exemplo de todos os itens estudados até então
+*/
+.classe-colinha a {
+    color: #112e61; /* Altera a cor da fonte */
+    font-size: 14px; /* Altera o tamanho da fonte */
+    font-style: italic; /* Altera o estilo da fonte */
+    font-weight:600; /* Altera o peso da fonte, 500 para fonte normal, 600 para semi-bold e 700 para bold */
+    text-decoration: none; /* Retira o sublinhado padrão de uma palavra, poded */
+    text-transform: uppercase; /* Altera todas as petras pra maiusculas */
+}
