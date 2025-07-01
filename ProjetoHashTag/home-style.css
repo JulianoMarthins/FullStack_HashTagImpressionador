@@ -1,19 +1,42 @@
+/* Seções Globais */
+
 @font-face {
     font-family: MontSerrat;
     src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 }
 
 body {
-    font-family: 'MontSerrat', sans-serif; /* Altera a fonte */
+    font-family: 'MontSerrat', sans-serif;
+    /* Altera a fonte */
+    color: #404040
+}
+
+p {
+    font-size: 16px;
+}
+
+/* strong {
+    font-weight: 600;
+} */
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.botao {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* Cabeçalho */
 .item-lista-cabecalho a {
-    color: #112e61; /* Alteura a cor da fonte */
-    font-size: 14px; /* Altera o tamanho da fonte */
-    font-weight:600; /* Altera a fonte para semi-bold */
-    text-decoration: none; /* Retirando o sublinhado de baixo da palavra */
-    text-transform: uppercase; /* Altera todas as petras pra maiusculas */
+    color: #112e61;
+    font-size: 14px;    
+    font-weight: 600;    
+    text-decoration: none;
+    text-transform: uppercase;   
 }
 
 /* Sessão Hero */
@@ -27,10 +50,145 @@ h1 {
     font-size: 19px;
 }
 
-.hero-botao {
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
-    
+
+
+/* Seção Conteúdo gratuítos */
+
+.gratuitos-h2 {
+    font-weight: 400;
+    font-size: 35px;
 }
 
+.gratuitos-h2 span {
+    font-weight: 700;
+    font-size: 35px;
+    color: #7A40BE;
+}
+
+gratuito-h3 {
+    font-size: 23px;
+}
+
+.gratuito-item-lista,
+.gratuito-link-lista {
+    font-size: 19px;
+    text-decoration: none;
+    color: #404040;
+}
+
+
+/* Seção Diferenciais */
+
+.diferencial-h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #404040;
+}
+
+.diferencial-h2 strong {
+    font-size: 32px;
+    color: #404040;
+    font-weight: 600;
+}
+
+.diferencial-paragrafo {
+    font-size: 19px;
+}
+
+.diferencial-h3 {
+    color: #005E88;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.diferencial-h3-empresas {
+    font-size: 35px;
+    font-weight: 400;
+    color: #404040
+}
+
+.diferencial-h3-empresas a {
+    font-size: 35px;
+    font-weight: 700;
+    color: #005E88;
+    text-decoration: none;
+}
+
+/* Seção O que falam */
+.falam-realce {
+    font-weight: 600;
+}
+
+
+/* Seção na mídia */
+
+/* Seção do Blog */
+.blog-postagem {
+    font-size: 15px;
+    color: #404040;
+
+}
+
+.blog-postagem a {
+    font-weight: 600;
+    color: #f7a70c;
+    text-decoration: none;
+}
+
+.titulo-post {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #404040;
+}
+
+.descricao-post {
+    font-size: 17px;    
+}
+
+
+/* Seção como ajudar */
+
+.ajudar-realce {
+    font-weight: 600;
+}
+
+.ajudar-listas{
+    font-size: 19px;
+}
+
+.ajuda-listas a {
+    color:#008ff7;
+    font-weight: 700;
+}
+
+.ajudar-paragrafo {
+    font-size: 19px;
+
+}
+
+/* Seção mini curso */
+.minicurso-realce {
+    font-weight: 600;
+}
+
+/* Selção rodapé */
+
+.rodape-titulo {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.rodape-subtitulo{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rodape-suporte{
+    font-size: 18px;
+    font-weight: 500;    
+}
+
+.rodape-link {
+    color: #1a77a4;
+}
