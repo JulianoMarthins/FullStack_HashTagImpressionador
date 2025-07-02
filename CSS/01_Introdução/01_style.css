@@ -4,41 +4,42 @@ body {
 
 h1 {
     font-size: 64px;
-    color:darkred
+    color: darkred
 }
 
 h2 {
     font-size: 32px;
     color: rgb(50, 43, 153)
-    
+
 }
 
 h3 {
     font-size: 24px;
-    
+
 }
+
 p {
     font-size: 18px;
-   
-    
+
+
 }
 
 .realce {
-    font-style: italic ;
+    font-style: italic;
     font-weight: bold;
-    color:darkred;
+    color: darkred;
     line-height: 1.5;
 }
 
 span.caixa-alta {
-    text-transform:uppercase;
-    color:darkred;
+    text-transform: uppercase;
+    color: darkred;
     font-weight: bold;
 }
 
 a {
     font-style: italic;
-    color:darkblue;
+    color: darkblue;
     text-decoration: dotted;
     text-decoration: underline;
     text-decoration-color: green;

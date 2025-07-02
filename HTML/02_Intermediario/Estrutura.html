@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Estruturas do HTML</title>
+</head>
+<body>
+
+<!--
+	Os sites são estruturados por seções, cada uma dessas com sua importância dentro do mesmo, tornando-se assim de
+	fácil divisão de cara trecho do site, podemos imaginar que exista uma divisão por blocos em cada parte da página.
+	Dentre essas seções, podemos destacar as mais importantes para a organização da página que seriam as seções de
+	cabeçalho, main e rodapé, tudo isso fica dentro do campo body, quer seria o corpo do site.
+	Abaixo podemos ver um código para demonstrar como é feito o cabeçalho, observa-se que tudo inicia na "tag
+	Header", que mostra ao navegador que este é o cabeçalho, em seguida temos a "tag nav", informando a navegação do
+	cabeçalho.
+	Em cada página devemos ter somente uma seção destes três tipos de seções, onde toda a estrutura do site
+	ficará dentro da "TAG Main".
+-->
+<header>
+	<nav>
+		<ul>
+			<li>
+				Valor demonstrativo para item do cabeçalho
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<!--
+	Abaixo podemos observar a criação da tag main, a qual conterá todas as seções do site.
+-->
+<main>
+<!--
+	A tag abaixo serve para a criação de artigos no site, um exemplo seria um artigo de um blog.
+-->
+	<article></article>
+
+<!--
+	Abaixo a Tag aside serve para a criação de um bloco do site que fica dentro da mesma seção, mas não está ligado
+	ao elemento principal do site, digamos que temos a página de um blog, a parte centrar será a leitura de um artigo
+	 em específico, porém mais ao lado direito da página, tem outro campo com propaganda de outros artigos do site.
+-->
+	<aside></aside>
+
+<!--
+	Essa tag seria para criar uma seção no site geral no site. Podemos imaginar uma página web subdividida em blocos,
+	 onde cara bloco desses é uma seção, ou no caso, uma section. Assim, facilita a organização do site e sua
+	 manutenibilidade.
+	 Observamos que, nessa explicação sobre blocos, a section é um bloco em específico, digamos que um texto, com
+	 título, onde o mesmo fica mais centralizado, porém, ao lado direito um vídeo que está ligado a esta seção,
+	 neste caso, para subdividir elementos da seção, usamos a tag div. A tag div não tem nenhum valor semântico para o
+	 navegador, apenas seve para juntar elementos do site em um bloco.
+-->
+	<section>
+		<div>
+
+		</div>
+	</section>
+</main>
+
+
+<!--
+	Abaixo temos a TAG específica para o rodapé do site, só deve ser usada uma vez por página web
+-->
+<footer>
+	rodapé
+</footer>
+
+</body>
+</html>
