@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="Desafio02.css">
 	<title>HTML & CSS</title>
 </head>
 <body>
@@ -34,10 +35,12 @@
 	<nav>
 		<ul>
 			<li>
-				<a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML">HTML</a>
+				<a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML"
+				target="_blank">HTML</a>
 			</li>
 			<li>
-				<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
+				<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+				target="_blank">CSS</a>
 			</li>
 		</ul>
 	</nav>
@@ -102,7 +105,7 @@
 			</pre>
 
 			<p>
-				No código acima, utilizamos o seletor <var>p</var> para selecionar todos os
+				No código acima, utilizamos o seletor <var>"p"</var> para selecionar todos os
 				elementos de parágrafo da página e vamos deixá-los na cor azul e com
 				uma fonte em negrito.
 			</p>
@@ -142,7 +145,6 @@
 		<h2>Para mais detalhes</h2>
 
 		<iframe src="https://pt.wikipedia.org/wiki/HTML"
-		        frameborder="1"
 		        width="600"
 		        height="400">
 		</iframe>
@@ -174,17 +176,40 @@
 
 <footer>
 	<section>
-		<h2>Informações de contato</h2>
+		<h2 class="cabecalho">Informações de contato</h2>
 
 		<address>
 			<p>
 				Facebook:
-				<a href="https://facebook.com/mozilla">https://facebook.com/mozilla</a>
+				<a
+						href="https://facebook.com/mozilla"
+						target="_blank">https://facebook.com/mozilla
+				</a>
 			</p>
 			<p>
 				Twitter:
-				<a href="https://twitter.com/mozilla">https://twitter.com/mozilla</a>
+				<a href="https://twitter.com/mozilla"
+				target="_blank">https://twitter.com/mozilla
+				</a>
 			</p>
+		</address>
+	</section>
+
+	<section>
+		<address>
+			<h2 class="cabecalho">Desenvolvido por Juliano Martins</h2>
+			<p>
+				LinkedIn:
+				<a href="https://www.linkedin.com/in/julianomarthins/"
+				target="_blank">JulianoMarthins</a>
+			</p>
+
+			<P>Fone WhatsApp: (051) 996.440.559</P>
+			<a href="https://api.whatsapp.com/send?phone=5551996440559"
+			target="_blank">
+				<img src="https://www.hashtagtreinamentos.com/wp-content/uploads/2023/06/whatsapp-logo-2.png"
+				     alt="Logo do Whatsapp">
+			</a>
 		</address>
 	</section>
 </footer>

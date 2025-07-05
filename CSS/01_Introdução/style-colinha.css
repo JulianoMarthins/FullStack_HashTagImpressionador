@@ -22,7 +22,7 @@ body {
     color: #112e61; /* Altera a cor da fonte */
     font-size: 14px; /* Altera o tamanho da fonte */
     font-style: italic; /* Altera o estilo da fonte */
-    font-weight:600; /* Altera o peso da fonte, 500 para fonte normal, 600 para semi-bold e 700 para bold */
+    font-weight: 600; /* Altera o peso da fonte, 500 para fonte normal, 600 para semi-bold e 700 para bold */
     text-decoration: none; /* Retira o sublinhado padrão de uma palavra, poded */
     text-transform: uppercase; /* Altera todas as petras pra maiusculas */
 }

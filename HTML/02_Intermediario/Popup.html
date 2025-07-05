@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Popup</title>
+</head>
+<body>
+<main>
+
+	<button class="js-abrir">Abrir</button>
+	<dialog>
+		<p>
+			Olá meu querido amigo usuário, obrigado por clicar no botão de abrir, somente assim eu posso ser mostrado
+			a você cumprindo meu proposito nesta página. Muito obrigado por me dar esta oportunidade de me mostrar a
+			ti, e de me fazer ser util e ter tido um sentido em minha criação. Infelizmente, você precisará fechar
+			minha janela para poder continuar navegando. Obrigado por ter me proporcionado este momento tão especial.
+			Fique com Deus.
+		</p>
+
+		<button class="js-fechar">Fechar</button>
+	</dialog>
+
+
+	<script>
+		let botaoAbrir = document.querySelector(".js-abrir");
+		let botaoFechar = document.querySelector(".js-fechar");
+		let dialog = document.querySelector("dialog");
+
+		botaoAbrir.addEventListener("click", () => {
+			dialog.showModal();
+		});
+
+		botaoFechar.addEventListener("click", () => {
+			dialog.close();
+		});
+	</script>
+
+</main>
+
+</body>
+</html>

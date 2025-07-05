@@ -33,10 +33,10 @@ h2 {
 /* Cabeçalho */
 .item-lista-cabecalho a {
     color: #112e61;
-    font-size: 14px;    
-    font-weight: 600;    
+    font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 
 /* Sessão Hero */
@@ -49,7 +49,6 @@ h1 {
 .hero-paragrafo {
     font-size: 19px;
 }
-
 
 
 /* Seção Conteúdo gratuítos */
@@ -143,7 +142,7 @@ gratuito-h3 {
 }
 
 .descricao-post {
-    font-size: 17px;    
+    font-size: 17px;
 }
 
 
@@ -153,12 +152,12 @@ gratuito-h3 {
     font-weight: 600;
 }
 
-.ajudar-listas{
+.ajudar-listas {
     font-size: 19px;
 }
 
 .ajuda-listas a {
-    color:#008ff7;
+    color: #008ff7;
     font-weight: 700;
 }
 
@@ -179,14 +178,14 @@ gratuito-h3 {
     font-size: 22px;
 }
 
-.rodape-subtitulo{
+.rodape-subtitulo {
     font-size: 20px;
     font-weight: 500;
 }
 
-.rodape-suporte{
+.rodape-suporte {
     font-size: 18px;
-    font-weight: 500;    
+    font-weight: 500;
 }
 
 .rodape-link {

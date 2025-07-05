@@ -2,75 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag Avançadas</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tag Avançadas</title>
 </head>
 
 <body>
+<main>
+
+	<!-- Exemplo de tag para uso de citações -->
+
+	<p>Segundo o site Lipsum: </p>
+
+	<!--
+	 O trecho de código abaixo faz com que o texto interno a tag fique exposto no site com indentação, este pode
+	 receber como argumendo uma URL para o atributo cite, que é citação. Este endereço URL não será exibido na página
+	 nem terá função pratica ao usuário, ele serve sim como informação adicional ao navegador, para deixar nosso site
+	 mais rico em detalhes, o ajundado a ser encontrado em sites de pesquisas como o google. A tag blockquote serve para
+	 referir-se a uma citação de uma pessoa, por exemplo, esta citação é um paragrafo
+	  -->
+	<blockquote cite="https://br.lipsum.com/feed/html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+		at porta massa. Curabitur fermentum non urna ac imperdiet. Aliquam mollis eros a nisi dapibus, eu
+		pellentesque nulla hendrerit. Donec ut mattis tortor. Aenean tristique felis et nisi
+		iaculis rutrum. Aliquam vehicula sapien et nulla consequat tincidunt. Etiam at porta nulla,
+		sed aliquam est. Phasellus sed dapibus urna. Donec fermentum diam sed sem placerat malesuada.
+		Nulla vestibulum dolor nisl, sed rhoncus arcu mollis et.
+	</blockquote>
+
+	<!-- Já quando a citação é apenas uma linha, usa-se a tag q, observa-se que são adicionado aspas ao conteúdo da tag.
+	 Nesta tag pode ser utilizado o atributo cite, para o mesmo fim de uso já explicado acima. -->
+	<p>Segundo o desenvolvedor de sistemas, Juliano Martins: <q>Ser programador é um sonho realizado</q></p>
+
+	<!-- Existe uma terceira tag para ser usada para citação, neste caso, refere-se a quem está sendo citado. Neste caso
+	 observação que a palavra interna a tag cite é exibida em itálico pelo navegador.
+	-->
+
+	<p>Segundo <cite>Thiele</cite>: As pessoas são assim porque são, não mudam, se elas te magoam, é de
+		sua responsabilidade apreder a lidar com isso.</p>
 
 
-    <!-- Exemplo de tag para uso de citações -->
-
-    <p>Segundo o site Lipsum: </p>
-
-    <!-- 
-     O trecho de código abaixo faz com que o texto interno a tag fique exposto no site com indentação, este pode
-     receber como argumendo uma URL para o atributo cite, que é citação. Este endereço URL não será exibido na página
-     nem terá função pratica ao usuário, ele serve sim como informação adicional ao navegador, para deixar nosso site 
-     mais rico em detalhes, o ajundado a ser encontrado em sites de pesquisas como o google. A tag blockquote serve para
-     referir-se a uma citação de uma pessoa, por exemplo, esta citação é um paragrafo
-      -->
-    <blockquote cite="https://br.lipsum.com/feed/html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-        at porta massa. Curabitur fermentum non urna ac imperdiet. Aliquam mollis eros a nisi dapibus, eu
-        pellentesque nulla hendrerit. Donec ut mattis tortor. Aenean tristique felis et nisi
-        iaculis rutrum. Aliquam vehicula sapien et nulla consequat tincidunt. Etiam at porta nulla,
-        sed aliquam est. Phasellus sed dapibus urna. Donec fermentum diam sed sem placerat malesuada.
-        Nulla vestibulum dolor nisl, sed rhoncus arcu mollis et.
-    </blockquote>
-
-    <!-- Já quando a citação é apenas uma linha, usa-se a tag q, observa-se que são adicionado aspas ao conteúdo da tag.
-     Nesta tag pode ser utilizado o atributo cite, para o mesmo fim de uso já explicado acima. -->
-    <p>Segundo o desenvolvedor de sistemas, Juliano Martins: <q>Ser programador é um sonho realizado</q></p>
-
-    <!-- Existe uma terceira tag para ser usada para citação, neste caso, refere-se a quem está sendo citado. Neste caso 
-     observação que a palavra interna a tag cite é exibida em itálico pelo navegador.
-    -->
-
-    <p>Segundo <cite>Thiele</cite>: As pessoas são assim porque são, não mudam, se elas te magoam, é de
-        sua responsabilidade apreder a lidar com isso.</p>
+	<!-- Exemplo de tag usadas para abreviações -->
 
 
+	<!-- A tag abbr serve para destacar um texto que esteja sendo abreviado, no caso abaixo, usamos na palavras siglas HTML
+	 onde é passado um atributo título com o nome completo do texto abreviado, para o usuário, a palavra HTML ficará
+	 com pontilhados abaixo e, com cursor parado sobre o HTML, é mostrado o nome completo passado no atributo titulo.
+	-->
+	<p>O <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de marcação utilizada
+		na criação de sites para a web</p>
 
-    <!-- Exemplo de tag usadas para abreviações -->
+	<!--
+		Quando formos colocar na página, qualquer tipo de contato, endereço, telefone, etc. temos a tag address para fazer
+		essa tarefa, isso porque ela mostra ao navegador a importância das informações contidas em seu interiror e as descatas
+		como sendo de contato para possiveis buscas externas ao site.
+	-->
+	<address>
+		<p>Contatos: </p>
+		<P>Telefone: 51 996 440 559</P>
+		<p>Endereço: Rua Silva Brandão 123 </p>
+	</address>
 
+	<!-- Códigos ou palavras relacionadas a informática / programação-->
 
-    <!-- A tag abbr serve para destacar um texto que esteja sendo abreviado, no caso abaixo, usamos na palavras siglas HTML
-     onde é passado um atributo título com o nome completo do texto abreviado, para o usuário, a palavra HTML ficará 
-     com pontilhados abaixo e, com cursor parado sobre o HTML, é mostrado o nome completo passado no atributo titulo. 
-    -->
-    <p>O <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de marcação utilizada
-        na criação de sites para a web</p>
-
-    <!-- 
-        Quando formos colocar na página, qualquer tipo de contato, endereço, telefone, etc. temos a tag address para fazer
-        essa tarefa, isso porque ela mostra ao navegador a importância das informações contidas em seu interiror e as descatas
-        como sendo de contato para possiveis buscas externas ao site. 
-    -->
-    <address>
-        <p>Contatos: </p>
-        <P>Telefone: 51 996 440 559</P>
-        <p>Endereço: Rua Silva Brandão 123 </p>
-    </address>
-
-    <!-- Códigos ou palavras relacionadas a informática / programação-->
-
-    <!-- Para representar códigos em HTML devemos utilizar a tag code, porém, nada em HTML respeita a indentação ou pulas de 
-     linhas conforme é feito ao escrever o código, em HTML, os textos se adaptam conforme a tela do usuário, neste caso, quando
-     queremos que seja respeitado essas indentações e quebras de linha, devemos colocar o texto dentro da tag pre, assim, tudo 
-     que tu fizer no teu texto refletirar exatamente como será mostrado ao usuário na página HTML. A tag pre pode ser usado
-     para qualquer tipo de texto, digamos, com a tag p de parágrafo, seria aceita -->
-    <pre>
+	<!-- Para representar códigos em HTML devemos utilizar a tag code, porém, nada em HTML respeita a indentação ou pulas de
+	 linhas conforme é feito ao escrever o código, em HTML, os textos se adaptam conforme a tela do usuário, neste caso, quando
+	 queremos que seja respeitado essas indentações e quebras de linha, devemos colocar o texto dentro da tag pre, assim, tudo
+	 que tu fizer no teu texto refletirar exatamente como será mostrado ao usuário na página HTML. A tag pre pode ser usado
+	 para qualquer tipo de texto, digamos, com a tag p de parágrafo, seria aceita -->
+	<pre>
         <code>
             function () {
                 let nome = "Juliano Martins";
@@ -79,27 +78,32 @@
         </code>
     </pre>
 
-    <!-- Abaixo podemos ver que existe uma tag chamada var, para ser utilizada quando precisarmos referenciar uma variavel descrita
-     no código acima. O valor contigo na tag ficaria em itálico ao usuário. -->
-    <p>Podemos observar que no código acima, a variável <var>nome</var> possui o valor "Juliano Martins" armazenada</p>
+	<!-- Abaixo podemos ver que existe uma tag chamada var, para ser utilizada quando precisarmos referenciar uma variavel descrita
+	 no código acima. O valor contigo na tag ficaria em itálico ao usuário. -->
+	<p>Podemos observar que no código acima, a variável <var>nome</var> possui o valor "Juliano Martins" armazenada</p>
 
-    <!-- A tag samp seria uma representação de uma informação que tenha sido respondida por um computador, usa fonte igual a 
-     utilizada pelo computador -->
-    <samp>Responsta de um computador</samp>
+	<!-- A tag samp seria uma representação de uma informação que tenha sido respondida por um computador, usa fonte igual a
+	 utilizada pelo computador -->
+	<samp>Responsta de um computador</samp>
 
-    <!-- A tag baiaxo serve para representar a tecla de teclado do comuptador, ao usuário, as informações contidas internas a
-     tag kbd possuem diferenciação na fonte apresentada. -->
-     <p>Para formatar o código digitado com a indentação correta no VSCode, utilizamos as teclas <kbd>Shift + Alt + F</kbd></p>
+	<!-- A tag baiaxo serve para representar a tecla de teclado do comuptador, ao usuário, as informações contidas internas a
+	 tag kbd possuem diferenciação na fonte apresentada. -->
+	<p>Para formatar o código digitado com a indentação correta no VSCode, utilizamos as teclas <kbd>Shift + Alt +
+		F</kbd>
+	</p>
 
 
-     <!-- Datas -->
+	<!-- Datas -->
 
-     <!-- Para representar datas em HTML devemos usar a tag TIME, seu conteúdo interno mostra ao computador e navegador que aquela
-      informação deve ser considerada uma data. Devemos observar que a data deve ser passada no argumento no formato americano, que
-      é ano, mês e dia, e passada como será exibida ao usuário, podendo ser inclusive em forma de texto.     
-     -->
-      <p>Minha data de nascimento é <time datetime="1982-06-04">04 de junho de 1982</time></p>
-    
+	<!-- Para representar datas em HTML devemos usar a tag TIME, seu conteúdo interno mostra ao computador e navegador que aquela
+	 informação deve ser considerada uma data. Devemos observar que a data deve ser passada no argumento no formato americano, que
+	 é ano, mês e dia, e passada como será exibida ao usuário, podendo ser inclusive em forma de texto.
+	-->
+	<p>Minha data de nascimento é
+		<time datetime="1982-06-04">04 de junho de 1982</time>
+	</p>
+</main>
+
 </body>
 
 </html>
